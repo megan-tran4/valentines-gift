@@ -1,0 +1,34 @@
+{
+  "hash": "bb1e98dd",
+  "configHash": "fcaf3bc3",
+  "lockfileHash": "2f104c05",
+  "browserHash": "929d11fb",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "53403662",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "4eadea08",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "847a6f95",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-PNYTT2B3": {
+      "file": "chunk-PNYTT2B3.js"
+    },
+    "chunk-KT3ROZER": {
+      "file": "chunk-KT3ROZER.js"
+    }
+  }
+}
