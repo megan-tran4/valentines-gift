@@ -1,0 +1,66 @@
+
+.main {
+    font-family: 'Sour Gummy', sans-serif;  
+  background-color: #f9d5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.envelope {
+    width: 500px;
+    height: 300px;
+    border-radius: 5%;
+    background-color: #fcece3;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.letter {
+    width: 0;
+    height: 0;
+    border-left: 230px solid transparent;
+    border-right: 230px solid transparent;
+    border-top: 150px solid #fff1f5;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+}
+
+.address {
+    width: 300px;
+    height: 130px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 25px;
+}
+.stamp {
+    scale: 0.3;
+    position: absolute;
+    top: -110px;
+    right: -110px;
+}
+.flap {
+    width: 0;
+    height: 0;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-bottom: 150px solid #fcece3;
+    position: absolute;
+    top: -140px;
+    left: 0;
+}
+
+.note {
+    margin-top: 30px;
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    background-color: #fff1f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    line-height: 1.5;
+}

@@ -1,0 +1,25 @@
+<div class="main">
+    <h1>Please open your letter ! </h1>
+    <div class="note" (click) = "toggleLetter()" [hidden]="!letter_opened">
+        Hello silly goose,
+        <br/>
+        <br/>
+        will write sentimental stuff here later.
+    </div>
+    <div class="envelope" (click) = "toggleLetter()" [hidden] = "letter_opened">
+        <div class="letter" [hidden]="!envelope_opened || letter_opened">
+            
+        </div>
+        <div class="flap" [hidden]="!envelope_opened || letter_opened"></div>
+            <div class="closed-envelope" >
+                <div class ="stamp"> 
+                    <img src="assets/heart-stamp.png" alt="stamp" />
+                </div>
+                <div class="address"> 
+                    <p>To: My boyfie</p>
+                    <p>From: me ehehehe</p>
+                </div>
+                
+            </div>
+    </div>
+</div>
