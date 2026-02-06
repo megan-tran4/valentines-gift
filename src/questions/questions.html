@@ -11,7 +11,7 @@
             
         </div>
         <div class="flap" [hidden]="!envelope_opened || letter_opened"></div>
-            <div class="closed-envelope" >
+            <div class="closed-envelope" [hidden]="envelope_opened || letter_opened">
                 <div class ="stamp"> 
                     <img src="assets/heart-stamp.png" alt="stamp" />
                 </div>
