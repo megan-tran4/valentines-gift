@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-questions',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './questions.html',
   styleUrl: './questions.css',
 })
@@ -10,16 +11,8 @@ export class Questions {
 
     envelope_opened = false;
     letter_opened = false;
+    questions_done = false;
 
-    openEnvelope() {
-        this.envelope_opened = true;
-        console.log('Envelope opened:', this.envelope_opened);
-    }
-    openLetter() {
-        this.letter_opened = !this.letter_opened;
-        this.envelope_opened = false;
-        console.log('Letter opened:', this.letter_opened);
-    }
     toggleLetter() {
         if (!this.envelope_opened) {
             this.envelope_opened = true;
@@ -31,5 +24,15 @@ export class Questions {
         }
 
     }
+
+    changeQuestion() {
+        this.questions_done = true;
+    }
+
+    togglePopUp() {
+        alert("Hey! That's not very nice :(")
+    }
+    
+    
   
 }

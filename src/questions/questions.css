@@ -64,3 +64,40 @@
     font-size: 20px;
     line-height: 1.5;
 }
+.closed-envelope img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+
+.yes-button {
+    background-color: #ff6f91;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.no-button {
+    background-color: #bbb;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+.questions-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.valentine-question {
+    padding-bottom: 20px;
+}
